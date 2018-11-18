@@ -2,12 +2,11 @@ doctype html
 html(lang='en')
   head
     title KingDOM | The Browser-Based MMORP
-    base(href=process.env.BASE_PATH || "${BASE_URI}/search/")
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
     meta(name="description", content="The browser-based MMORPG!")
     meta(name="theme-color", content="#44c7f4")
-    //- link(rel="icon", type="image/png", sizes="32x32", href="./img/favicon-32x32.png")
+    link(rel="icon", type="image/png", sizes="32x32", href="./public/favicon.png")
     link(rel="stylesheet" href="./src/styles/base.scss")
     script(src="./src/main.js")
   body
@@ -15,7 +14,7 @@ html(lang='en')
       h1 KingDOM
       h2 The Browser-Based MMO.
 
-      a(href="/")
+      a(href="/latest/index.html")
         button Adventure Awaits!
       br
       br
