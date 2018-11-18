@@ -1,1 +1,1 @@
-<p>Empty</p>
+<a href="mailto:{email}"><button>Email</button></a>

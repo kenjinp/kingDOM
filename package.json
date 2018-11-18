@@ -24,5 +24,8 @@
     "pug": "^2.0.3",
     "sass": "^1.15.1",
     "svelte": "^2.15.2"
+  },
+  "dependencies": {
+    "universal-analytics": "^0.4.20"
   }
 }
