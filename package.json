@@ -1,0 +1,28 @@
+{
+  "name": "kingDOM-landing-page",
+  "version": "1.0.0",
+  "description": "A landing page for the kingDOM game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warning: no test specified\" && exit 0",
+    "dev": "parcel index.pug --no-cache",
+    "build": "parcel build index.pug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenjinp/the-road-to-keshget-landing-page.git"
+  },
+  "author": "github@kenny.wtf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenjinp/the-road-to-keshget-landing-page/issues"
+  },
+  "homepage": "https://github.com/kenjinp/the-road-to-keshget-landing-page#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "parcel-plugin-svelte": "^1.2.3",
+    "pug": "^2.0.3",
+    "sass": "^1.15.1",
+    "svelte": "^2.15.2"
+  }
+}
